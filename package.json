@@ -1,0 +1,17 @@
+{
+  "name": "survey-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@superfluid-finance/js-sdk": "^0.5.5",
+    "@textile/eth-storage": "^0.2.0",
+    "@truffle/contract": "^4.3.38"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "swayam",
+  "license": "ISC"
+}

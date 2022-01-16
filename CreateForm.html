@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Moralis SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+  <title>Survey Dapp</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- include font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+  <h1>New Form</h1>
+  <div class="wrapper">
+    <div id="survey_options">
+      <input type="text" name="survey_options[]" class="survey_options" size="50" placeholder="Title">
+      <input type="text" name="survey_options[]" class="survey_options" size="50" placeholder="Question1">
+      <input type="text" name="survey_options[]" class="survey_options" size="50" placeholder="Question2">
+    </div>
+    <div class="controls">
+      <a href="#" id="add_more_fields"><i class="fa fa-plus"></i>Add Question</a>
+      <a href="#" id="remove_fields"><i class="fa fa-plus"></i>Remove Question</a>
+      <button id="submit">submit</button>
+    </div>
+    
+  </div>
+<script src="CreateForm.js"></script>
+</body>
+</html>
